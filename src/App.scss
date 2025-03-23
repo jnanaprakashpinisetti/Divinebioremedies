@@ -1,0 +1,18 @@
+@import '/src/scss/variables';
+
+.banner {
+    background-color: $blue;
+    height: 50px;
+}
+.logo {
+    margin: 30px auto;
+    text-align: center;
+
+    img {
+        max-width: 200px;
+    }
+}
+
+.basic-info {
+    text-align: center;
+}
