@@ -1,0 +1,65 @@
+.carousel {
+    margin-bottom: 75px;
+    // margin-top: 60px;
+    @include mobile {
+        margin-bottom: 30px;
+    }
+
+    h2 {
+        text-align: left;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+}
+
+.carousel-item {
+    min-height: 500px;
+    background-position: left top;
+    // background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center center;
+    margin-top: 88px;
+
+    @include mobile-tab {
+        background-image: none !important;
+        background-color: #D1F2FB;
+    }
+
+    .innet-text {
+        @include desktop {
+        max-width: 30%;
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        transform: translateY(-50%)
+        }
+        @include mobile-tab {
+            padding: 40px 20px 15px 20px;
+        }
+    }
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 10%;;
+}
+
+.carousel-1 {
+    background-image: url(../../images/carousal/carousal-1.jpg)
+}
+
+.carousel-2 {
+    background-image: url(../../images/carousal/carousal-2.jpg)
+}
+
+.carousel-3 {
+    background-image: url(../../images/carousal/carousal-3.jpg)
+}
+
+.carousel-4 {
+    background-image: url(../../images/carousal/carousal.jpg)
+}
+
+.carousel-5 {
+    background-image: url(../../images/carousal/carousal.jpg)
+}

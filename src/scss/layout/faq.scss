@@ -1,0 +1,94 @@
+.faq {
+    .hero-banner {
+        background-image: url(../../images/img/faq.jpg);
+        @include mobile {
+            background-image: url(../../images/img/faq-mobile.jpg);
+
+        }
+    }
+
+    h2 {
+        color: $blue;
+        margin-bottom: 15px;
+    }
+
+    .panel-group {
+        max-width: 900px;
+        margin: auto;
+    }
+
+    .panel {
+
+        margin-bottom: 30px;
+        border: 1px solid #dfdfdf78;
+        border-left: 2px solid $blue;
+        border-radius: 5px;
+        overflow: hidden;
+        
+    }
+
+    .panel-heading {
+        padding: 15px;
+        
+        &:hover {
+            background-color: #f7fbff;
+        }
+
+        @include mobile {
+            padding-right: 30px
+        }
+    }
+
+    .panel-title {
+        margin-bottom: 0;
+
+        a {
+            color: $light-gray;
+            position: relative;
+            display: block;
+
+
+            // &.collapsed {
+            //     &::before {
+            //         content: "+"
+            //     }
+            // }
+
+            &::before {
+                content: "+";
+                width: 30px;
+                height: 30px;
+                position: absolute;
+                right: 0px;
+                background: $blue;
+                color: $white;
+                text-align: center;
+                border-radius: 50%;
+                font-size: 25px;
+
+                @include mobile {
+                    width: 25px;
+                    height: 25px;
+                    right:-20px;
+                    font-size: 20px
+                }
+            }
+
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+
+        a[aria-expanded="true"] {
+            &::before {
+                 content: "-" !important;
+             }
+         }
+
+    }
+
+    .panel-body {
+        padding: 15px 25px;
+    }
+}
