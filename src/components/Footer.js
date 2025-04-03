@@ -41,7 +41,7 @@ export default function Footer() {
                 <ul>
                   <NavLink to='/' className="nav-link" onClick={closeMenu}>Home </NavLink>
                   <NavLink to='About-Us' className="nav-link" onClick={closeMenu}>About Us </NavLink>
-                  <NavLink to='Our-services' className="nav-link" onClick={closeMenu}> Our Services</NavLink>
+                  <NavLink to='Our-services' className="nav-link" onClick={closeMenu}> Our Products</NavLink>
                   <NavLink to='FAQs' className="nav-link" onClick={closeMenu} >FAQs </NavLink>
                   <NavLink to='Contact' className="nav-link" onClick={closeMenu}>Contact Us </NavLink>
                 </ul>
@@ -78,7 +78,7 @@ export default function Footer() {
                     <li> <a href='tell:9705567799' className="call"><img src={cell} alt="location" />97055 67799</a></li>
                     <li><a href='mailto:divinebioremedies@gmail.com'><img src={email} alt="location" />divinebioremedies@gmail.com</a></li>
                     <li className="address">
-                      <img src={location} alt="location" /> <span>Address Here</span>
+                      <img src={location} alt="location" /> <span>D. No: 5-35, Vuyyuru, Vuyyuru Mandal, Vijayawada Circle, Krishna District, Andhra Pradesh, Pin: 531165</span>
                     </li>
                   </ul>
                 </div>
