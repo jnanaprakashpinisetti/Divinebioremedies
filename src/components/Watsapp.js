@@ -2,7 +2,7 @@ import React from "react";
 import WatsappIcon from "../images/icons/social-media/whatsapp-icon.png";
 
 export default function Watsapp() {
-  const phoneNumber = "9888559955";
+  const phoneNumber = "9705567799";
   const message = "I Want Home care service";
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
     message
