@@ -9,7 +9,6 @@ import OurProducts from './pages/OurProducts';
 import Faq from './pages/Faq';
 import ContactUs from './pages/ContactUs';
 import Elements from './Elements/Elements';
-import Rnd from './pages/Rnd'
 import Certifications from './pages/Certifications'
 
 
@@ -63,9 +62,7 @@ export default function Navbar() {
 							<li className="nav-item">
 								<NavLink to='FAQs' className="nav-link"onClick={closeMenu} >FAQs </NavLink>
 							</li>
-							<li className="nav-item">
-								<NavLink to='Rnd' className="nav-link" onClick={closeMenu}>R & D </NavLink>
-							</li>
+						
 							<li className="nav-item">
 								<NavLink to='Certifications' className="nav-link" onClick={closeMenu}>Certifications </NavLink>
 							</li>
@@ -85,7 +82,6 @@ export default function Navbar() {
 				<Route path="About-us" element={<AboutUs />} />
 				<Route path="Our-products" element={<OurProducts />} />
 				<Route path="FAQs" element={<Faq />} />
-				<Route path="Rnd" element={<Rnd />} />
 				<Route path="Certifications" element={<Certifications />} />
 				<Route path="Contact" element={<ContactUs />} />
 				<Route path="/Elements" element={<Elements />} />
