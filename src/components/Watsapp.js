@@ -3,7 +3,7 @@ import WatsappIcon from "../images/icons/social-media/whatsapp-icon.png";
 
 export default function Watsapp() {
   const phoneNumber = "9705567799";
-  const message = "I Want Home care service";
+  const message = "I Want Aqua Products";
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
     message
   )}`;
