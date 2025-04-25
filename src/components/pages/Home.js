@@ -8,6 +8,7 @@ import SendMessage from '../SendMessage';
 import EnquiryForm from '../EnquiryForm';
 import ReactGA from 'react-ga';
 import Watsapp from '../Watsapp';
+import ProductCarousal from '../ProductCarousal';
 import { Helmet } from 'react-helmet';
 
 const Home = () => {
@@ -25,6 +26,7 @@ const Home = () => {
             <Carousal />
             <Card />
             <Choose />
+            <ProductCarousal />
             {/* <HowToProcess /> */}
             {/* <SendMessage /> */}
             <EnquiryForm />

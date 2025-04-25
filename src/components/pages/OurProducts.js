@@ -10,6 +10,7 @@ import serviceMobileHero from '../../images/img/services-mobile.jpg'
 import Watsapp from '../Watsapp';
 import ReactGA from 'react-ga';
 import { Helmet } from 'react-helmet';
+import ProductList from '../ProductList';
 
 const OurProducts = () => {
     useEffect(() => {
@@ -24,7 +25,7 @@ const OurProducts = () => {
 
             </Helmet>
             <Watsapp />
-            {/* <div className="hero-banner mt-80">
+            <div className="hero-banner mt-80">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6">
@@ -38,7 +39,7 @@ const OurProducts = () => {
                         </div>
                     </div>
                 </div>
-            </div> */}
+            </div> 
 
             {/* <div className="container">
                 <div className="row">
@@ -50,17 +51,10 @@ const OurProducts = () => {
             </div> */}
 
            
- 
            
-         <br></br>
-         <br></br>
-         <br></br>
-         <br></br>
-         <br></br>
-         <br></br>
-            
+        
 
-            <h1>Page under development </h1>
+            <ProductList/>
 
              
 
