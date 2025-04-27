@@ -1,24 +1,21 @@
-import firebase from 'firebase/compat/app';
-import 'firebase/compat/auth';
-import 'firebase/compat/firestore';
-import "firebase/compat/database"
-
 // Import the functions you need from the SDKs you need
-// import { initializeApp } from "firebase/app";
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyBYBYDMqcK5tdMCrvMCuqTsgqso9MBNt18",
-  authDomain: "jenceo-admin.firebaseapp.com",
-  databaseURL: "https://jenceo-admin-default-rtdb.firebaseio.com",
-  projectId: "jenceo-admin",
-  storageBucket: "jenceo-admin.appspot.com",
-  messagingSenderId: "863138638995",
-  appId: "1:863138638995:web:0c43ff8601b969b53cb166"
+  apiKey: "AIzaSyBd1QRziMzc1GAj_UXV0BLxiM7V61vplTQ",
+  authDomain: "divinebiorededies.firebaseapp.com",
+  projectId: "divinebiorededies",
+  storageBucket: "divinebiorededies.firebasestorage.app",
+  messagingSenderId: "139362613133",
+  appId: "1:139362613133:web:1ad883af865b4eef57afc4",
+  measurementId: "G-7LDF00HGYD"
 };
 
 // Initialize Firebase
-const firebaseDB = firebase.initializeApp(firebaseConfig);
-export default firebaseDB.database().ref("JenCeo-DataBase");
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);

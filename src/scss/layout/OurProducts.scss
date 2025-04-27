@@ -1,10 +1,11 @@
-.services {
+.products {
     .hero-banner {
-        background-image: url(../../images/img/services.jpg);
+        background-image: url(../../images/products/All-Products.jpg);
         @include mobile {
             // background-image: url(../../images/img/services-mobile.jpg);
             background: none;
             height: auto;
+            padding: 0;
 
         }
         .visable-mobile {
@@ -16,30 +17,22 @@
         }
     }
 
-    .service-banner {
-    background: url(../../images/img/services-2.jpg);
-        background-size: cover;
-        background-position: center;
-        
-        @include mobile {
-            background: url(../../images/img/services-2-mobile.jpg);
-            background-position: bottom;
-            height: 750px;
-
-        }
-
-        * {
-            color: $white;
-        }
-
+    .product-list {
         h2 {
-            font-size: 40px;
-            @include mobile {
-                font-size: 32px;
-            }
+           text-transform: uppercase;
+           color: $blue;
+           font-weight: bolder;
+           font-size: 40px;
+        }
+
+        .composition {
+            font-size: 18px;
+            font-weight: bold;
+            display: block;
         }
     }
 
+ 
 
    ul {
        list-style: none;
@@ -48,12 +41,12 @@
            position: relative; 
            &::before {
                content: "";
-               width: 13px;
-               height: 13px;
+               width: 18px;
+               height: 18px;
                position: absolute;
                left: -25px;
                top: 6px;
-               background-image: url(../../images/icons/right-icon.svg);
+               background-image: url(../../images/icons/hand-icon.svg);
                background-size: cover;
                opacity: .8;
            }
@@ -83,17 +76,4 @@
     }
 }
 
-#old-age-care {
-    .btn-wrapper {
-        @include mobile {
-            margin-bottom: 30px;
-        }
-    }
-}
-#physotherophy {
-    .btn-wrapper {
-        @include mobile {
-            margin-bottom: 30px;
-        }
-    }
-}
+ 
