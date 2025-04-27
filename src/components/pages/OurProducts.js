@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import diprows from '../../images/products/di-pro-ws.png'
+import diminforte from '../../images/products/di-min-forte.png'
 
 import allProducts from '../../images/products/All-Products-mobile.jpg'
 import Watsapp from '../Watsapp';
@@ -59,13 +60,46 @@ const OurProducts = () => {
                     </div>
 
                     <div className="col-md-4">
-                        <img src={diprows} alt="diprows" />
+                        <img src={diminforte} alt="diprows" />
 
                     </div>
 
                 </div>
             </div>
-            <hr />
+
+            <div className="light-blue">
+                <div className="container product-list">
+                    <h2>DI-MIN FORTE</h2>
+                    <div className="row">
+                        <div className="col-md-4">
+                            <img src={diprows} alt="diprows" />
+
+                        </div>
+                        <div className="col-md-4">
+                            <span className='composition'>Composition:-</span>
+                            <p>
+                                Zinc Sulphate, Copper Sulphate, Magnesium Sulphate,Di Calcium Phosphate, Manganese Sulphate, Potassium Chloride, Methionine, LR-Lysine, Sodium, Nitrate Ferrous Sulphate,Cerevisiae strains, Probiotics .</p>
+                            <span className='composition'>Dosage:-</span>
+                            <p>5 to 10kg per Acre or advised by aqua consultant.</p>
+                            <span className='composition'>Direction of usage :-</span>
+                            <p>Dissolve appropriate quantity of Di-min forte in pond water and apply over the pond and run the aerators.</p>
+                        </div>
+                        <div className="col-md-4">
+                            <span className='composition'>Benifets :-</span>
+                            <ul>
+
+                                <li>High bio-availability and reduce the mineral loss in Metabolism.</li>
+                                <li>Improves the water quality and bio-plankton.</li>
+                                <li>Heavy metal free and improves the growth hormonal and enzymatic activities.</li>
+                                <li>Helps in muscle contractions and constituents of exoskleleton.</li>
+                                <li>Helps the pre-moulting of the shrimp and avoid the soft-shelling of the shrimp.</li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
 
 
 

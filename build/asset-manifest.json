@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.b592239f.css",
-    "main.js": "/static/js/main.3038cc16.js",
+    "main.js": "/static/js/main.edc993d5.js",
     "static/js/787.9af6062a.chunk.js": "/static/js/787.9af6062a.chunk.js",
+    "static/media/di-min-forte.png": "/static/media/di-min-forte.b580995bbedacdb21a1a.png",
     "static/media/di-pro-ws.png": "/static/media/di-pro-ws.b3dee00653505da51ed9.png",
     "static/media/All-Products.jpg": "/static/media/All-Products.c3ba0e61fa8ef45cd8f0.jpg",
     "static/media/Roboto-Black.ttf": "/static/media/Roboto-Black.cf56c1b149d0a5e8d7c6.ttf",
@@ -58,11 +59,11 @@
     "static/media/facebook.svg": "/static/media/facebook.f32dd8b1eec017ae5374443970fe180a.svg",
     "static/media/check.svg": "/static/media/check.608309100b997aae364d.svg",
     "main.b592239f.css.map": "/static/css/main.b592239f.css.map",
-    "main.3038cc16.js.map": "/static/js/main.3038cc16.js.map",
+    "main.edc993d5.js.map": "/static/js/main.edc993d5.js.map",
     "787.9af6062a.chunk.js.map": "/static/js/787.9af6062a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b592239f.css",
-    "static/js/main.3038cc16.js"
+    "static/js/main.edc993d5.js"
   ]
 }
