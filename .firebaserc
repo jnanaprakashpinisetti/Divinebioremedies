@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "devine-bio-remedies"
-  }
+    "default": "divinebioremidesnew",
+    "hosting": "divinebioremidesnew"
+  },
+  "targets": {},
+  "etags": {}
 }
