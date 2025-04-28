@@ -19,10 +19,10 @@
 
     .product-list {
         h2 {
-           text-transform: uppercase;
            color: $blue;
            font-weight: bolder;
            font-size: 40px;
+           margin-bottom: 30px;
         }
 
         .composition {
@@ -48,7 +48,7 @@
                top: 6px;
                background-image: url(../../images/icons/hand-icon.svg);
                background-size: cover;
-               opacity: .8;
+               opacity: .5;
            }
            &:last-child {
                margin-bottom: 0

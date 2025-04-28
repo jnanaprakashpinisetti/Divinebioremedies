@@ -2,6 +2,8 @@ import React, { useEffect } from 'react';
 import diprows from '../../images/products/di-pro-ws.png'
 import diminforte from '../../images/products/di-min-forte.png'
 import diMinNano from '../../images/products/di-min-non.png'
+import ceon from '../../images/products/ceon.png'
+import superActive from '../../images/products/super.png'
 
 import allProducts from '../../images/products/All-Products-mobile.jpg'
 import Watsapp from '../Watsapp';
@@ -127,11 +129,81 @@ const OurProducts = () => {
 
                     <div className="col-md-4">
                         <img src={diMinNano} alt="di Min Nano" />
+                    </div>
+                </div>
+            </div>
 
+
+            <div className="light-blue">
+                <div className="container product-list">
+                    <h2>CEON (Vitamin-C)</h2>
+                    <div className="row">
+                        <div className="col-md-4">
+                            <img src={ceon} alt="ceon (vitamin-c" />
+
+                        </div>
+                        <div className="col-md-4">
+                            <span className='composition'>Composition:-</span>
+                            <p>
+                                Ceon is a superior vitamin c complex</p>
+                            <span className='composition'>Dosage:-</span>
+                            <p>5 to 10 grams per 1 kg of Feed</p>
+                            <span className='composition'>Direction of usage :-</span>
+                            <p>Mix required quantity of CEON in the feed by using binding gel or as recommended by aqua consultant.</p>
+                        </div>
+                        <div className="col-md-4">
+                            <span className='composition'>Benifets :-</span>
+                            <ul>
+                                <li>Enhances immunity power.</li>
+                                <li>Improves the growth rate and disease resistance	capacity of the animal.</li>
+                                <li>Prevents the bacterial and Viral infections attack.</li>
+                                <li>Improves the collagen formation in the shrimp body and helps in wound repair.</li>
+                                <li>improves free moulting and increases muscle strength.</li>
+                                <li>Instant relief from stress.</li>
+                            </ul>
+                        </div>
                     </div>
 
                 </div>
             </div>
+
+
+            <div className="container product-list">
+                <h2>SUPER ACTIVE</h2>
+                <div className="row">
+                    <div className="col-md-4">
+                        <span className='composition'>Composition:-</span>
+                        <p>
+                            Mixture of sodium per Carbonate, Sodium per Borates, Calcium peroxide having high capacity of releasing Oxygen</p>
+                        <span className='composition'>Dosage:-</span>
+                        <p>1 kg per Acre in the one metre depth or advised by aqua consultant</p>
+                        <span className='composition'>Direction of usage :-</span>
+                        <p>Apply required quantity of Super Active uniformly over the pond</p>
+                    </div>
+                    <div className="col-md-4">
+                        <span className='composition'>Benifets :-</span>
+                        <ul>
+                            <li>improves O2 levels and maintains for a longer period</li>
+                            <li>Makes the animal very active</li>
+                            <li>Acts as fastest life saving substance and avoids mass mortality</li>
+                            <li>reduce the running mortality caused by low DO</li>
+                            <li>increased DO levels in pond will allow the beneficial microorganisms grow better in the pond environment</li>
+                        </ul>
+                    </div>
+
+                    <div className="col-md-4">
+                        <img src={superActive} alt="super Active" />
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
 
 
 
