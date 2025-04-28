@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.92f03055.css",
-    "main.js": "/static/js/main.2bd809f4.js",
+    "main.css": "/static/css/main.a1610844.css",
+    "main.js": "/static/js/main.b1e7f51d.js",
     "static/js/787.9af6062a.chunk.js": "/static/js/787.9af6062a.chunk.js",
     "static/media/di-pro-ws.png": "/static/media/di-pro-ws.9731fadd6af77f456cb5.png",
     "static/media/ceon.png": "/static/media/ceon.d3193c83cfa390dbdbf9.png",
@@ -9,8 +9,8 @@
     "static/media/super.png": "/static/media/super.b8c17896375f5f14197f.png",
     "static/media/saprolyt-g.png": "/static/media/saprolyt-g.632412ee1d80088574dc.png",
     "static/media/All-Products.jpg": "/static/media/All-Products.82e0541ca0fa63e2d52c.jpg",
+    "static/media/contact-us-2.jpg": "/static/media/contact-us-2.df304e717c42959d67d4.jpg",
     "static/media/Roboto-Black.ttf": "/static/media/Roboto-Black.cf56c1b149d0a5e8d7c6.ttf",
-    "static/media/contact-us-2.jpg": "/static/media/contact-us-2.325f36e3ae26ceaa414b.jpg",
     "static/media/safe-sheeld.png": "/static/media/safe-sheeld.d2aaf2d28a596a4fc10b.png",
     "static/media/Product-2.jpg": "/static/media/Product-2.0bfc24daa8bba14c857b.jpg",
     "static/media/Product-4.jpg": "/static/media/Product-4.bf4a5b8854bf29fcdc87.jpg",
@@ -21,15 +21,16 @@
     "static/media/carousal-1.jpg": "/static/media/carousal-1.5d47699cdd164bd0029a.jpg",
     "static/media/Product-5.jpg": "/static/media/Product-5.60bef2faa6bb4cf48e66.jpg",
     "static/media/di-min-non.png": "/static/media/di-min-non.79391db4be013015ad79.png",
-    "static/media/about-us-2.jpg": "/static/media/about-us-2.cd22c58716f72feadddd.jpg",
+    "static/media/about-us.jpg": "/static/media/about-us.1c95c19fab75f1d743eb.jpg",
     "static/media/Product-3.jpg": "/static/media/Product-3.158c1700df4999c2cbab.jpg",
     "static/media/contact-us.jpg": "/static/media/contact-us.94e7d9e0091dd80d554f.jpg",
     "static/media/All-Products-mobile.jpg": "/static/media/All-Products-mobile.93bf8ce579d5ad5d1eee.jpg",
-    "static/media/about-us.jpg": "/static/media/about-us.4fdf98777e8448249e28.jpg",
+    "static/media/about-us-mobile.jpg": "/static/media/about-us-mobile.a4c656437576222151fb.jpg",
+    "static/media/certificates-mobile.jpg": "/static/media/certificates-mobile.d672b0a07066bbfbe5fb.jpg",
     "static/media/faq.jpg": "/static/media/faq.3824024773642fe4cbfb.jpg",
+    "static/media/certificates.jpg": "/static/media/certificates.c173f1163b8f5b668682.jpg",
     "static/media/contact-us-mobile.jpg": "/static/media/contact-us-mobile.93da9ac1652a4abd8d16.jpg",
     "static/media/whatsapp-icon.png": "/static/media/whatsapp-icon.d680b91aa2a54678f807.png",
-    "static/media/about-us-mobile.jpg": "/static/media/about-us-mobile.2e16b313c6dad3611ded.jpg",
     "static/media/Logo.png": "/static/media/Logo.8dd6abc0b373d80ec7d3.png",
     "static/media/faq-mobile.jpg": "/static/media/faq-mobile.b28e570a6c6313de70a6.jpg",
     "static/media/CareerAssignedIcon.svg": "/static/media/CareerAssignedIcon.08c0ddefc5ac085371c6101a0284a3bf.svg",
@@ -64,12 +65,14 @@
     "static/media/youtube.svg": "/static/media/youtube.1795d53cdd4cb5194a3b4b30138a53a6.svg",
     "static/media/facebook.svg": "/static/media/facebook.f32dd8b1eec017ae5374443970fe180a.svg",
     "static/media/check.svg": "/static/media/check.608309100b997aae364d.svg",
-    "main.92f03055.css.map": "/static/css/main.92f03055.css.map",
-    "main.2bd809f4.js.map": "/static/js/main.2bd809f4.js.map",
+    "static/media/left-arrow.svg": "/static/media/left-arrow.6c3bad1d54d1c0ae67a0.svg",
+    "static/media/right-arrow.svg": "/static/media/right-arrow.8f625d43c32525149975.svg",
+    "main.a1610844.css.map": "/static/css/main.a1610844.css.map",
+    "main.b1e7f51d.js.map": "/static/js/main.b1e7f51d.js.map",
     "787.9af6062a.chunk.js.map": "/static/js/787.9af6062a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.92f03055.css",
-    "static/js/main.2bd809f4.js"
+    "static/css/main.a1610844.css",
+    "static/js/main.b1e7f51d.js"
   ]
 }
