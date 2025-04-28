@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import diprows from '../../images/products/di-pro-ws.png'
 import diminforte from '../../images/products/di-min-forte.png'
+import diMinNano from '../../images/products/di-min-non.png'
 
 import allProducts from '../../images/products/All-Products-mobile.jpg'
 import Watsapp from '../Watsapp';
@@ -55,12 +56,11 @@ const OurProducts = () => {
                             <li>Clears the pond bottom sludge and  degrades the organic matter.</li>
                             <li>Maintains Phytoplankton and zoo plankton Balance.</li>
                             <li>Degrades Toxic gasses in the pond water.</li>
-
                         </ul>
                     </div>
 
                     <div className="col-md-4">
-                        <img src={diminforte} alt="diprows" />
+                        <img src={diprows} alt="diprows" />
 
                     </div>
 
@@ -72,7 +72,7 @@ const OurProducts = () => {
                     <h2>DI-MIN FORTE</h2>
                     <div className="row">
                         <div className="col-md-4">
-                            <img src={diprows} alt="diprows" />
+                            <img src={diminforte} alt="diprows" />
 
                         </div>
                         <div className="col-md-4">
@@ -87,19 +87,58 @@ const OurProducts = () => {
                         <div className="col-md-4">
                             <span className='composition'>Benifets :-</span>
                             <ul>
-
                                 <li>High bio-availability and reduce the mineral loss in Metabolism.</li>
                                 <li>Improves the water quality and bio-plankton.</li>
                                 <li>Heavy metal free and improves the growth hormonal and enzymatic activities.</li>
                                 <li>Helps in muscle contractions and constituents of exoskleleton.</li>
                                 <li>Helps the pre-moulting of the shrimp and avoid the soft-shelling of the shrimp.</li>
-
                             </ul>
                         </div>
                     </div>
 
                 </div>
             </div>
+
+
+
+
+            <div className="container product-list">
+                <h2>Di-min Nano</h2>
+                <div className="row">
+                    <div className="col-md-4">
+                        <span className='composition'>Composition:-</span>
+                        <p>
+                            Nano Magnesium, Nano Manganese,Nano Calcium, Nano Zinc,Nano Ferrous, Nano Chromium, Nano cobalt,Nano Selenium, Nano Molybdenum,Amino acids, Pro-biotics, Vitamins and Enzymes.</p>
+                        <span className='composition'>Dosage:-</span>
+                        <p>1 Litre per acre</p>
+                        <span className='composition'>Direction of usage :-</span>
+                        <p>Water Application : 1 Litre per 1 acre, Feed application : 5 to 10ml per 1 kg feed or advised by Aqua Consultant.</p>
+                    </div>
+                    <div className="col-md-4">
+                        <span className='composition'>Benifets :-</span>
+                        <ul>
+                            <li>High bio-availability and reduce the mineral loss in Metabolism.</li>
+                            <li>Improves the water quality and bio-plankton.</li>
+                            <li>Heavy metal free and improves the growth hormonal and enzymatic activities.	</li>
+                            <li>Helps in muscle contractions and constituents of exoskleleton.</li>
+                            <li>Helps the pre-moulting of the shrimp and avoid the soft-shelling of the shrimp.</li>
+                        </ul>
+                    </div>
+
+                    <div className="col-md-4">
+                        <img src={diMinNano} alt="di Min Nano" />
+
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+
+
+
 
 
 
