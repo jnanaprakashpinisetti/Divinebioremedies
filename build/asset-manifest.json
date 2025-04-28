@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.b592239f.css",
-    "main.js": "/static/js/main.edc993d5.js",
+    "main.css": "/static/css/main.9e299521.css",
+    "main.js": "/static/js/main.8908c0b3.js",
     "static/js/787.9af6062a.chunk.js": "/static/js/787.9af6062a.chunk.js",
+    "static/media/di-pro-ws.png": "/static/media/di-pro-ws.ae5dbd4c072028affa0b.png",
     "static/media/di-min-forte.png": "/static/media/di-min-forte.b580995bbedacdb21a1a.png",
-    "static/media/di-pro-ws.png": "/static/media/di-pro-ws.b3dee00653505da51ed9.png",
-    "static/media/All-Products.jpg": "/static/media/All-Products.c3ba0e61fa8ef45cd8f0.jpg",
+    "static/media/All-Products.jpg": "/static/media/All-Products.82e0541ca0fa63e2d52c.jpg",
     "static/media/Roboto-Black.ttf": "/static/media/Roboto-Black.cf56c1b149d0a5e8d7c6.ttf",
     "static/media/contact-us-2.jpg": "/static/media/contact-us-2.325f36e3ae26ceaa414b.jpg",
     "static/media/Product-2.jpg": "/static/media/Product-2.0bfc24daa8bba14c857b.jpg",
@@ -15,6 +15,7 @@
     "static/media/carousal-2.jpg": "/static/media/carousal-2.abc86113a8abe669007b.jpg",
     "static/media/carousal-1.jpg": "/static/media/carousal-1.5d47699cdd164bd0029a.jpg",
     "static/media/Product-5.jpg": "/static/media/Product-5.60bef2faa6bb4cf48e66.jpg",
+    "static/media/di-min-non.png": "/static/media/di-min-non.79391db4be013015ad79.png",
     "static/media/about-us-2.jpg": "/static/media/about-us-2.cd22c58716f72feadddd.jpg",
     "static/media/Product-3.jpg": "/static/media/Product-3.158c1700df4999c2cbab.jpg",
     "static/media/contact-us.jpg": "/static/media/contact-us.94e7d9e0091dd80d554f.jpg",
@@ -58,12 +59,12 @@
     "static/media/youtube.svg": "/static/media/youtube.1795d53cdd4cb5194a3b4b30138a53a6.svg",
     "static/media/facebook.svg": "/static/media/facebook.f32dd8b1eec017ae5374443970fe180a.svg",
     "static/media/check.svg": "/static/media/check.608309100b997aae364d.svg",
-    "main.b592239f.css.map": "/static/css/main.b592239f.css.map",
-    "main.edc993d5.js.map": "/static/js/main.edc993d5.js.map",
+    "main.9e299521.css.map": "/static/css/main.9e299521.css.map",
+    "main.8908c0b3.js.map": "/static/js/main.8908c0b3.js.map",
     "787.9af6062a.chunk.js.map": "/static/js/787.9af6062a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b592239f.css",
-    "static/js/main.edc993d5.js"
+    "static/css/main.9e299521.css",
+    "static/js/main.8908c0b3.js"
   ]
 }
