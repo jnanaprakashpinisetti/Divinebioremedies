@@ -4,6 +4,9 @@ import diminforte from '../../images/products/di-min-forte.png'
 import diMinNano from '../../images/products/di-min-non.png'
 import ceon from '../../images/products/ceon.png'
 import superActive from '../../images/products/super.png'
+import saprsaprolyt from '../../images/products/saprolyt-g.png'
+import germiKill from '../../images/products/gremi-kill.png'
+import safeShild from '../../images/products//safe-sheeld.png'
 
 import allProducts from '../../images/products/All-Products-mobile.jpg'
 import Watsapp from '../Watsapp';
@@ -35,6 +38,7 @@ const OurProducts = () => {
                 </div>
             </div>
 
+            {/***** DI PRO-WS *****/}
             <div className="container product-list">
                 <h2>DI PRO-WS</h2>
                 <div className="row">
@@ -69,6 +73,7 @@ const OurProducts = () => {
                 </div>
             </div>
 
+            {/***** DI-MIN FORTE *****/}
             <div className="light-blue">
                 <div className="container product-list">
                     <h2>DI-MIN FORTE</h2>
@@ -103,7 +108,7 @@ const OurProducts = () => {
 
 
 
-
+            {/***** DI-NIN-Nano *****/}
             <div className="container product-list">
                 <h2>Di-min Nano</h2>
                 <div className="row">
@@ -133,7 +138,7 @@ const OurProducts = () => {
                 </div>
             </div>
 
-
+            {/***** CEON *****/}
             <div className="light-blue">
                 <div className="container product-list">
                     <h2>CEON (Vitamin-C)</h2>
@@ -167,7 +172,7 @@ const OurProducts = () => {
                 </div>
             </div>
 
-
+            {/***** SUPER ACTIVE *****/}
             <div className="container product-list">
                 <h2>SUPER ACTIVE</h2>
                 <div className="row">
@@ -199,18 +204,137 @@ const OurProducts = () => {
 
 
 
+            {/***** SAPROLYT-G *****/}
+            <div className="light-blue">
+                <div className="container product-list">
+                    <h2>SAPROLYT-G</h2>
+                    <div className="row">
+                        <div className="col-md-4">
+                            <img src={saprsaprolyt} alt="ceon (saprsaprolyt-g" />
+
+                        </div>
+                        <div className="col-md-4">
+                            <span className='composition'>Composition:-</span>
+                            <p>
+                                Sio 60-65%,Al2o 12-18%,Fe2o2 23% Cao 15-18%, MGO 2.5%,Na2o 1-2 %,Probiotics, Yucca extract.</p>
+                            <span className='composition'>Dosage:-</span>
+                            <p>5 to 10 kg per acre in every 15 days.For pond preparation 20 kg per acre.</p>
+                            <span className='composition'>Direction of usage :-</span>
+                            <p>Direct pond application and broadcast uniformly throughout the pond or as advised by the aqua consultant.</p>
+                        </div>
+                        <div className="col-md-4">
+                            <span className='composition'>Benifets :-</span>
+                            <ul>
+                                <li>Removes  toxic  gases  like  ammonia  and Hydrogen sulphide and keeps the pond  bottom fresh.</li>
+                                <li>Releases  oxygen  improves  DO  levels in the pond and regulates  the COD and BOD levels in the pond</li>
+                                <li>Clears harmful Algae </li>
+                                <li>Reduce  turbidity  and  improves  water quality</li>
+                                <li>prevents the sludge formation at the pond bottom and keeps the pond bottom clean and free from pathogenic microbes</li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
 
 
 
+            {/***** GERMI KILL *****/}
+            <div className="container product-list">
+                <h2>GERMI KILL</h2>
+                <div className="row">
+                    <div className="col-md-4">
+                        <span className='composition'>Composition:-</span>
+                        <p>
+                            Alkylbenzyl Dimethyl Ammonium Chlorides (Benzyl konium Chloride 80%)</p>
+                        <span className='composition'>Dosage:-</span>
+                        <p>1 Ltr per Acre or as advised by the aqua consultant</p>
+                        <span className='composition'>Direction of usage :-</span>
+                        <p>Mix Required Quantity of Germi kill in pond water and broad cast throughout the pond. Apply During the Hot weather and run the aerators for best result or as advised by the aqua consultant</p>
+                    </div>
+                    <div className="col-md-4">
+                        <span className='composition'>Benifets :-</span>
+                        <ul>
+                            <li>A powerful disinfectant which controls and prevent pathogenic loads in the pond.</li>
+                            <li>Controls external infections of the animal .</li>
+                            <li>Acts well on protozoan infections.	</li>
+                            <li>Helps for good water quality and enhance moulting.</li>
+                            <li>It can be used in wide range of pH conditions and helps in promoting good water quality for better growth of the animal.</li>
+                        </ul>
+                    </div>
+
+                    <div className="col-md-4">
+                        <img src={germiKill} alt="germi Kill" />
+                    </div>
+                </div>
+            </div>
 
 
+            {/*****  SAFE SHIELD *****/}
+            <div className="light-blue">
+                <div className="container product-list">
+                    <h2> SAFE SHIELD</h2>
+                    <div className="row">
+                        <div className="col-md-4">
+                            <img src={safeShild} alt="ceon (safe Shild" />
 
+                        </div>
+                        <div className="col-md-4">
+                            <span className='composition'>Composition:-</span>
+                            <p>
+                                Safe Shield is a nano-tech based universal disinfectant .</p>
+                            <span className='composition'>Dosage:-</span>
+                            <p>1 Litre per acre </p>
+                            <span className='composition'>Direction of usage :-</span>
+                            <p>Mix required quantity of Safe Shield with pond water and broadcast uniformly throughout the pond or as advised by the aqua consultant.</p>
+                        </div>
+                        <div className="col-md-4">
+                            <span className='composition'>Benifets :-</span>
+                            <ul>
+                                <li>Nano particles attack the microbial cell walls/protein coats and breaks it ,thus disrupting its genetic material.</li>
+                                <li>Kills the pathogenic bacteria, virus and fungal infections</li>
+                                <li>Shows immediate effect when compared to the conventional sanitizer</li>
+                                <li>Environmentally safe and non-toxic</li>
+                                <li>No left over residues in the pond</li>
+                                <li>Nano sized particles are proven to be showing better efficacy when compared to its basic elemental counterparts. </li>
+                            </ul>
+                        </div>
+                    </div>
 
+                </div>
+            </div>
 
+            {/***** DIODINE *****/}
+            <div className="container product-list">
+                <h2>DIODINE</h2>
+                <div className="row">
+                    <div className="col-md-4">
+                        <span className='composition'>Composition:-</span>
+                        <p>
+                            Nonyl alkyl Phenoxy poly Ethylene Oxide Iodine.</p>
+                        <span className='composition'>Dosage:-</span>
+                        <p>500 ml per Acre</p>
+                        <span className='composition'>Direction of usage :-</span>
+                        <p>Required Quantity of Diodine-20 with dry sand and broadcast uniformly throughout the pond (or) Recommended by aqua consultant
+                        </p>
+                    </div>
+                    <div className="col-md-4">
+                        <span className='composition'>Benifets :-</span>
+                        <ul>
+                            <li>Improves the metabolic rate.</li>
+                            <li>Excellent water disinfectant which reduces the pathogenic microbial loads in the pond water and pond bottom.</li>
+                            <li>controls tail rot and abnormal antennae damage.</li>
+                            <li>Effectively kills  bacteria, Fungi, Protozoa,Viruses, spores, algae.</li>
+                            <li>Helps in removing the gill infection in the animal.</li>
+                        </ul>
+                    </div>
 
-
-
-
+                    <div className="col-md-4">
+                        <img src={germiKill} alt="germi Kill" />
+                    </div>
+                </div>
+            </div>
 
 
 
