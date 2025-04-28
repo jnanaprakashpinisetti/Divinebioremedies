@@ -14,3 +14,13 @@
         }
     }
 }
+
+.certificates{
+    .hero-banner {
+        background-image: url(../../images/img/certificates.jpg);
+        @include mobile {
+            background-image: url(../../images/img/certificates-mobile.jpg);
+
+        }
+    }
+}

@@ -67,16 +67,24 @@
 .productCarousel {
     max-width: 50%;
     margin: auto;
+@include mobile {
+    max-width: 90%;
+}
+
     .carousel-item {
         min-height: auto;
         margin-top: 0;
     }
  
 
-    .carousel-control-prev-icon,
+    .carousel-control-prev-icon {
+        background-image: url(../../images/icons/left-arrow.svg);
+        opacity: 1 !important;
+
+    }
     .carousel-control-next-icon {
-        background-color: $blue;
-        opacity: 1s;
+        background-image: url(../../images/icons/right-arrow.svg);
+        opacity: 1 !important;
     }
 
     .carousel-indicators {
