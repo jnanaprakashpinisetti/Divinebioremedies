@@ -97,7 +97,7 @@ const EnquiryForm = () => {
             setShowModal(true);
 
             // Send the form using emailjs
-            emailjs.sendForm('service_c0rlm6v', 'template_x970hts', form.current, 'kU1091UCIc-0bJ5LV')
+            emailjs.sendForm('service_alkuev2', 'template_lzurrne', form.current, 'lUxYHRY196SfTOq5e')
                 .then((result) => {
                     console.log(result.text);
                 }, (error) => {
